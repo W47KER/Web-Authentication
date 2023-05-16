@@ -1,0 +1,20 @@
+<div>
+    <div>
+        <h4>Hello, {{ fullName }}</h4>
+    </div>
+    
+    <button (click)="logOut()" class="btn">Log Out</button>
+    <div>
+        <ng-container *ngIf="role === 'Admin'">
+            <ul *ngFor="let user of users">
+                <li>{{ user.username }}</li>
+            </ul>
+
+        </ng-container>
+    </div>
+</div>
+
+
+
+
+

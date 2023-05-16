@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+} 
+.container{
+    background-color: grey;
+    margin: 25px;
+    padding: 25px;
+    height: auto;
+    width: 500px;
+}
+a{
+    text-decoration: none;
+    color: rgba(blue 0.75px);
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+.input{
+    margin: 10px;
+
+}
+label, input,span{
+    border-radius: 4px solid black;
+    font-size: 20px;
+    margin: 10px;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 15px;
+}

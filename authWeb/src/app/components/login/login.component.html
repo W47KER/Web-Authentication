@@ -1,0 +1,26 @@
+<div class="wrapper">
+    <div class="container">
+        <h1 class="input">Login Page</h1>
+        <div class="form">
+            <form [formGroup]="loginForm" ngNativeValidate >
+                <div class="input">
+                    <label for="username">Username</label>
+                    <input formControlName="username" type="text" placeholder="username" required>
+                </div>
+                <div class="input">
+                    <label for="username">Password</label>
+                    <input formControlName="password" type="password" placeholder="password" required> 
+                </div>
+                <div class="input">
+
+                    <a href="">Forget Password?</a><br>
+                    <button (click)="onLogin()" class="btn" type="submit">Login</button>
+                </div>
+                <div>
+                    <span>Didn't have account? <a routerLink="/signup">SignUp</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
